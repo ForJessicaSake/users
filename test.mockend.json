@@ -1,14 +1,22 @@
 {
-    "Post": {
-      "title": { "string": ["loki", "harry", "steph"] },
-      "comments": {
-        "hasMany": "Comment"
-      }
-    },
-    "Comment": {
-      "body": { "string": ["testing this web application", "just checking to see if it works"] },
-      "post": {
-        "belongsTo": "Post"
-      }
-    }
-  }
+    "Users": [
+        {
+            "id": 1,
+            "name": "MCCO4rrQ3h",
+            "online": false,
+            "picture": "https://picsum.photos/seed/64/60/60"
+        },
+        {
+            "id": 2,
+            "name": "kIfSa6kPqH",
+            "online": true,
+            "picture": "https://picsum.photos/seed/96/60/60"
+        },
+        {
+            "id": 3,
+            "name": "mVF6AYhDmy",
+            "online": false,
+            "picture": "https://picsum.photos/seed/92/60/60"
+        }
+    ]
+}
